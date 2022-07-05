@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body{
+  margin: 0;
+		padding: 0;
+		background-color: #0f1313;
+		font-family: 'Poppins', sans-serif;
+}
+
+.wrapper{
+	width: 600px;
+	max-width: 600px;
+	height: 600px;
+	margin: 0 auto;
+	margin-top: 20px;
+	background-color: #202020;
+	border-radius: 10px;
+}
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	margin: 5px;	
+}
+
+div :where(textarea){
+	display: block;
+	line-height:20px;
+	margin: 1rem;
+	width: 15rem;
+	max-width:15rem ;
+	height: 10rem;
+	border-radius: 25px;
+	padding: 1rem 1rem;
+	align-content: center;
+	border: 2px solid black;
+	outline: none;
+	border: none;
+	font-size: 18px;
+	background-color: #dfdddd;
+}
+h3{
+	color: #ffffff;
+	text-align: center;
+	margin-top: 0px;
+}
+.select{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	margin: 25px;
+	outline: none;
+	border: none;
+}
+select{
+	height: 50px;
+	width: 35%;
+	font-size: x-large;
+	border-radius: 10px;
+	text-align: center;
+	outline: none;
+	border: none;
+}
+
+
+.cntnr-btn{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	margin: 25px;
+}
+
+.translate-to{
+	height: 50px;
+	width: 35%;
+	font-size: x-large;
+	border-radius: 10px;
+	cursor: pointer;
+}
